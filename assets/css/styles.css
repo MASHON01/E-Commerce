@@ -3,7 +3,10 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
   }
-  
+  /* .hero {
+    background-size: cover;
+    backface-visibility: inherit;
+  } */
   .header {
     position: fixed;
     top: 0;
@@ -32,6 +35,7 @@ body {
   
   .navigation {
     display: flex;
+    font-size: larger;
     align-items: center;
     padding-left: 120%;
   }
@@ -72,4 +76,225 @@ body {
   
   .product-section a:hover {
     background-color: #e20c0c;
+  }
+  .footer {
+    background-color: #f0ecec;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* text-align: center; */
+  }
+  
+  .footer .logo {
+    /* float: left; */
+  }
+  
+  .footer .contact-icons {
+    float: left;
+    margin-right: 20px;
+    text-align: left;
+
+    
+  }
+  
+  .footer .contact-icons img {
+    width: 20px;
+    height: 20px;
+    float: left;
+    /* margin-right: 10px; */
+  }
+  
+  .footer .subscribe {
+    float: right;
+    text-align: right;
+    margin-right: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .footer .subscribe p {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  .footer .subscribe input[type="email"] {
+    padding: 10px;
+    width: 250px;
+  }
+  .footer .subscribe img {
+    width: 30px;
+    height: 20px;
+  }
+
+  .footer .line {
+    border-top: 1px solid #ccc;
+    margin: 30px 0;
+  }
+  
+  .footer .rights {
+    margin-top: 10px;
+    text-align: left;
+  }
+  .section {
+    padding: 50px;
+  }
+  
+  /* First Section */
+  
+  .first-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .first-section .card {
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .first-section .card .image {
+    flex: 1;
+  }
+  
+  .first-section .card .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .first-section .card .description {
+    flex: 1;
+    padding-left: 20px;
+  }
+  
+  .first-section .card .description h3 {
+    margin-top: 0;
+  }
+  
+  .first-section .card .description p {
+    margin-bottom: 10px;
+  }
+  
+  .first-section .card .description a {
+    display: inline-block;
+    background-color: #ff4c4c;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .first-section .card .description a:hover {
+    background-color: #f53bd6;
+  }
+  .bestpro {
+    text-align: center;
+  }
+  
+  /* Second Section */
+  
+  .second-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .second-section .card {
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .second-section .card .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .second-section .card:hover .image {
+    background-color: rgba(255, 255, 255, 0);
+  }
+  
+  .second-section .card .image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .second-section .card .text {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .second-section .card .text h3 {
+    margin: 0;
+  }
+  
+  .second-section .card .text p {
+    margin: 5px 0;
+  }
+  
+  /* Third Section */
+  
+  .third-section {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .third-section .card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .third-section .card .date {
+    position: absolute;
+    text-align: center;
+    top: 300px;
+    left: 700px;
+    background-color: #cec8c8;
+    color: #000000;
+    padding: 5px;
+  }
+  
+  .third-section .card .image {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .third-section .card .image img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .third-section .card .description {
+    margin-bottom: 10px;
+  }
+  
+  .third-section .card .read-more {
+    display: inline-block;
+    background-color: #ff4c4c;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .third-section .card .read-more:hover {
+    background-color: #f520b5;
   }
